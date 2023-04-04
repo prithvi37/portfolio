@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Prithvi Kaklotar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/37cfd7c987.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img scr ="images/logo1.png" ,class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Data Analyst </p>
+                <h1>Hi, I'm <span>Prithvi</span><br>Kaklotar</h1>
+            </div>
+        </div>
+    </div>
+    <div id ="about">
+        <div class="'container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/WhatsApp Image 2023-03-18 at 15.51.43.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class = 'sub-title' >About Me </h1>
+                    <p>Being highly adaptive, I was able to change my field from Electronics to Big data and now studying Artificial Intelligence at Georgian College, Barrie campus.
+                       What I believe is the number of possibilities and our capabilities are limitless once you find something that intrigues you and with that belief am looking for opportunities that will help me grow and contribute to the development of IT society.</p>
+                    
+                    <div class='tab-titles'>
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Knowledge of Business Intelligence (BI) applications and Visualization technologies.</span></li>
+                            <li><span class ="clr"> Visualization tools </span><br> Power BI, Tableau</li>
+                            <li><span class="clr">Software Tools</span><br>Talend, Tableau, Visual Studio, JUPYTER  notebook ,SQL</li>
+                            <li><span>Knowledge of ML model Statistical data analysis</span></li>
+                            <li><span>SQL queries operations in database</span></li>
+                            <li><span>Amazon Web Services</span></li>
+                            <li><span>Python flask,docker,Heroku.</span></li>
+                            <li><span class="clr">Workplace skills</span><br>Problem-solving, debugging, and innovative thinking skills</li>
+                            <li><span>Collaborative team member with strong organizational skills and a positive attitude.</span></li>
+                            <li><span class="clr"> Key skill</span><br>Highly adaptive</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span class="clr">2017-2021</span><br>BTech Electrical Engineering</li>
+                            <li><span class="clr">2021-2022</span><br>Big Data</li>
+                            <li><span class="clr">Jan 2023-ongoing</span><br>Artificial Intelligence</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------services--------------------------->
+    <div id="services">
+        <div id="container">
+            <h1 class = 'sub-title' >Projects </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Social Data Minning</h2>
+                    <p> •	Used NLP techniques to refine the data and develop a better insight on the data
+                        •	Used lemmatization stemming word tokenization to develop a text classification
+                        •	Preprocessing data for sentiment analysis
+                        </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Iris Prediction Model</h2>
+                    <p> •	Implemented a supervised model using python libraries like NumPy, Pandas and Scikit-learn that can predict the cause of diabetes.
+                        •	Integrated data from multiple sources and performed data cleaning and data integration.
+                        •	Represented the predictions and analysis in different graphs and charts with the help of data visualization libraries of python like Matplotlib and Seaborn.
+                        •	Used logistic regression model and random forest classification and concluded that random forest provides better accuracy than logistic regression on training and test set.
+                        
+                        </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Cassandra python</h2>
+                    <p> •	Creating a cluster, establishing a connection, and creating a key space.
+                        •	Implementing queries.
+                        •	Identify the correct primary key, insert records in the table.
+                        
+                        </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Data Analysis</h2>
+                    <p> •	Have experience different types of data throughout the course
+                        •	Cleaning of data,finding missing values,encoding data
+                        •	Different approaches for different types of data,using supervised and unsupervised models
+                        •	Building prediction models,visualizing the data building insights
+                        
+                        </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-------------portfolio------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class = 'sub-title'>Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/covid1.png" >
+                    <div class="layer">
+                        <h3>Covid-19 Dashboard</h3>
+                        <p>This dashboard was build using power bi where data was linked through the github then fed to bi to update
+                            the dashboard actively with the change in the covid data.
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/cassandra.png" >
+                    <div class="layer">
+                        <h3>Cassandra Python</h3>
+                        <p> Cassandra was used by a docker image. The goal of the assignment was to creating a cluster,
+                            establishing a connection, and creating a key space.
+                            Throughout the assignment had my hand-on with cassandra in jupyter notebook.
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/book_recom.png" >
+                    <div class="layer">
+                        <h3>Book Recommendation</h3>
+                        <p>
+                            Using the svd a book recommendation project was build which recommends the user books based on his previous historical interests.
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/iris.png" >
+                    <div class="layer">
+                        <h3>Data Analysis of Iris data</h3>
+                        <p>
+                            A complete data analysis was done cleaning imputing missing values used supervised ml model to analyse and achieved the gvien goal of the project.
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/info extract.png" >
+                    <div class="layer">
+                        <h3>Information extraction</h3>
+                        <p>
+                            Using AWS servies such as s3 bucket amazon comprehend info extraction was done from the documnets and visualized in form of graph 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--------------contact--------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> Prithvikaklotar37@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +1(416)-838-9309</p>
+                    <div class="social-icons">
+                        <a href="www.linkedin.com/in/prithvi-kaklotar-49a449149"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Download CV</a>
+                </div>
+                <!--<div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="Submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>-->
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p> "Made by someone who had no idea about coding a year ago"</p>
+        </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementbyId("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+</html>
